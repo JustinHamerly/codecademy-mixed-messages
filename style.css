@@ -1,0 +1,35 @@
+body, #infobox, #list, div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Merienda', cursive;
+}
+
+#ballimg {
+  height: 32px;
+  width: 32px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+Footer {
+  position:absolute;
+    width:100%;
+    bottom:0px;
+  display: flex;
+    justify-content: center;
+
+}
